@@ -1,18 +1,17 @@
 <!doctype html>
-
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Sqiffer.</title>
-  <meta name="description" content="A simple HTML5 Template for new projects.">
-  <meta name="author" content="SitePoint">
+  <title>Employee of the Month Voting</title>
+  <meta name="description" content="Vote for the Employee of the Month.">
+  <meta name="author" content="Your Company Name">
 
-  <meta property="og:title" content="A Basic HTML5 Template">
+  <meta property="og:title" content="Employee of the Month Voting">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://www.sitepoint.com/a-basic-html5-template/">
-  <meta property="og:description" content="A simple HTML5 Template for new projects.">
+  <meta property="og:url" content="https://yourdomain.com/">
+  <meta property="og:description" content="Vote for the Employee of the Month.">
   <meta property="og:image" content="image.png">
 
   <link rel="icon" href="/favicon.ico">
@@ -20,16 +19,18 @@
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
   <link rel="stylesheet" href="css/styles.css">
-
 </head>
-
-</navbar>
-
 <body>
-  
+  <header>
+    <div class="header">
+      <h1>Vote for the Employee of the Month</h1>
+    </div>
+  </header>
+
   <div class="vote-module">
-    <label for="vote">Vote for Employee of the Month:</label>
-    <select id="vote" name="vote">
+    <label for="vote">Select an Employee:</label>
+    <select id="vote" name="vote" required>
+      <option value="" disabled selected>Choose an employee</option>
       <option value="employee1">Employee 1</option>
       <option value="employee2">Employee 2</option>
       <option value="employee3">Employee 3</option>
