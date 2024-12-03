@@ -1,7 +1,6 @@
 body{ 
   margin: 0em;
   font-family: sofia pro;
-  background-color: red;
 }
 
 header {
@@ -9,7 +8,7 @@ header {
     linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(8, 0, 39, 1)),
     url('/images/background.jpg');
 
-  height: 100vh;
+  height: 500px;
   background-position:center;
   background-repeat: no-repeat;
   background-size: cover;
