@@ -1,0 +1,136 @@
+body{ 
+  margin: 0em;
+  font-family: sofia pro;
+}
+
+header {
+  background-image:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(8, 0, 39, 1)),
+    url('/images/background.jpg');
+
+  height: 100vh;
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 0em;
+}
+
+.nav-list{
+  width: 100%;
+  position:sticky;
+  background: white;
+  margin: 0em;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  /* box-shadow: orangered 0em 0.1em 2em -0.2em; */
+}
+
+.nav-item{
+  list-style: none;
+  margin-right: 2rem;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: black;
+  transition:all 200ms ease-in ;
+}
+
+.nav-item a:hover{
+  color:orangered;
+}
+
+.nav-item:first-child{
+  margin-right: auto;
+  margin-left: 2rem;
+}
+
+.btn-primary {
+color: white;
+font-family: Sofia pro;
+font-size: 1rem;
+background:orange;
+border-style:none;
+border-radius: 5em;
+outline: none;
+padding:1rem 2rem;
+cursor: pointer;
+transition:all 200ms ease-in ;
+}
+
+.btn-primary:hover {
+  background:red ;
+}
+
+
+h1 {
+  font-size: 3em;
+  margin:0em;
+  width: 40%;
+  display: block;
+  letter-spacing: 1px;
+  font-weight: 300;
+}
+
+.header {
+  color:white;
+  padding-top: 10%;
+  padding-left: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+}
+
+
+.anchor-link {
+  display:block;
+  text-decoration-line: underline;
+}
+
+.anchor-link:visited {
+  display:block;
+  text-decoration-line: underline;
+  color:white;
+}
+
+.anchor-link:hover {
+  display:block;
+  text-decoration-line: underline;
+  color:orange;
+}
+
+.intro {
+  padding-left: 2rem;
+  padding-top: 2rem;
+  width: 80%;
+}
+
+.vote-module {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.vote-module label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.vote-module select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.vote-module button {
+  background-color: #007acc;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
